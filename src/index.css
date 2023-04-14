@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color:#eeedf6;
+  box-sizing: border-box;
+}
+.calculator{
+  margin: 5vw;
+    width: min(90vw, 110vh);
+    background-color: var(--primary-clr);
+    outline: 1.5vw solid #fff;
+    border-radius: 20px;
+}
+.price-range{
+  grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+  margin: 3em 2em;
+}
+
+input{
+  accent-color: #6f2dbd;
+  outline: none;
+  margin: 1em 0;
+  background: #fff;
+}
+
